@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap Scroll</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        html {
+            scroll-snap-type: y proximity;
+            scroll-behavior: smooth;
+        }
+
+        section {
+            scroll-snap-align: start;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+    <section>
+        <div class="w-screen h-screen">
+            <div class="container p-10 w-full h-full mx-auto">
+                <div class="w-[500px] h-full bg-neutral-700 mx-auto"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="w-screen h-screen">
+            <div class="container p-10 w-full h-full mx-auto">
+                <div class="w-[500px] h-full bg-neutral-700 mx-auto"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="w-screen h-screen">
+            <div class="container p-10 w-full h-full mx-auto">
+                <div class="w-[500px] h-full bg-neutral-700 mx-auto"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="w-screen h-screen">
+            <div class="container p-10 w-full h-full mx-auto">
+                <div class="w-[500px] h-full bg-neutral-700 mx-auto"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="w-screen h-screen">
+            <div class="container p-10 w-full h-full mx-auto">
+                <div class="w-[500px] h-full bg-neutral-700 mx-auto"></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
